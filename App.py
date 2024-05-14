@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 
 # Load the data
-salary_data = pd.read_csv(r"C:\Users\91822\OneDrive\Desktop\XX\Salary_Data.csv")  # Update with the path to your data file
+salary_data = pd.read_csv("Salary_Data.csv") 
 
 # Preprocess the data
 scaler = StandardScaler()
