@@ -22,7 +22,7 @@ st.title("Salary Prediction App")
 # Centered input for years of experience
 st.markdown("<h3 style='color: purple; font-size: 20px;'>Input Years of Experience</h3>", unsafe_allow_html=True)
 
-years_exp_input = st.text_input("Years of Experience", "Enter years of experience")
+years_exp_input = st.text_input("Years of Experience")
 
 # Predict the salary
 if st.button("Predict Salary"):
